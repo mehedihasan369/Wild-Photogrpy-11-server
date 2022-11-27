@@ -1,0 +1,26 @@
+{
+  "name": "assignment-10-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-mehedihasan369.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-mehedihasan369/issues"
+  },
+  "homepage": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-mehedihasan369#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
