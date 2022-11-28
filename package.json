@@ -21,6 +21,8 @@
   "homepage": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-mehedihasan369#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
   }
 }
