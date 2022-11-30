@@ -52,11 +52,16 @@ async function run(){
             email: req.query.email
         }
     }
-
-    const cursor = reviewCollection.find(query);
+      const cursor = reviewCollection.find(query);
             const orders = await cursor.toArray();
             res.send(orders);
         });
+
+        app.post('/reviews', async (req, res) => {
+          const review = req.body;
+          const result = await reviewCollection.insertOne(review);
+          res.send(result);
+      });
     
 
   }
